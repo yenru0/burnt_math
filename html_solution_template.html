@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Paper</title>
+    <title>Solution Paper</title>
     <style>
       body {
         margin-left: 1.2rem;
@@ -17,7 +17,7 @@
         size: auto;
       }
       ol.main {
-        column-count: 2;
+        column-count: 3;
         
         list-style-type: decimal-leading-zero;
       }
@@ -35,8 +35,8 @@
 </head>
 <body>
 <ol class="main">
-{% for problem in problems %}
-    <li>{{problem}}</li>
+{% for sol in solved %}
+    <li>{{sol}}</li>
 {% endfor %}
 </ol>
 

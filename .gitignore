@@ -132,3 +132,5 @@ dmypy.json
 # custom
 
 paper.html
+solution.html
+*.pdf
